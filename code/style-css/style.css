@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+*{
+    font-family: Bebas Neue;
+    background-color: #52A351;
+}
+
+*::selection{
+   background-color: #5bff58;
+}
+
+div#all{
+    text-align: center;
+}
+
+p{
+    font-size: 2em;
+    /* font-family: Mukta; */
+    font-family: League Spartan;
+}
+
+a{
+    font-family: Josefin;
+}
+
+div#image{
+    background-color: #5bff58;
+    border-color: black;
+    border-style: solid;
+    width: 200px;
+    height: 200px; 
+    margin-left: 53em;   
+}
+
+div.forms{
+    width: 500px; height: 300px;
+    border-color: black;
+    border-style: solid;
+    background-color: #5bff58;
+    margin-left: 42em;
+}
+
+div.forms ul li{
+    display: inline-flexbox;
+}
+
+div#r-socials{
+    padding-bottom: -8em;
+}
+
+div#r-socials ul li{
+   display: inline-flex;
+   padding: 1em;
+   padding-left: 5em;
+   font-size: 1.2em;
+}
+div#r-socials ul li a{
+   text-decoration: none;
+   color: rgb(0, 38, 255);
+}
+div#r-socials ul li a:hover{
+   font-size: 1.7em;
+   
+ }
+
+div#forms-b ul li{
+    background-color: #5bff58;
+    font-size: 1.7em;
+    padding: 5px;
+    text-align: left;
+}
+div#forms-b ul {
+    background-color: #5bff58;
+}
