@@ -5,7 +5,7 @@
 
 *{
     font-family: Bebas Neue;
-    background-color: #52A351;
+    background-color: #29c027;
 }
 
 *::selection{
@@ -32,19 +32,22 @@ div#image{
     border-style: solid;
     width: 200px;
     height: 200px; 
-    margin-left: 50em;   
+    margin-left: 52em;   
 }
 
 div.forms{
     width: 500px; height: 300px;
     border-color: black;
+    border-radius: 1.6em;
     border-style: solid;
-    background-color: #5bff58;
+    background-color:  #5bff58;
+    box-shadow: 3px 3px 3px black;
     margin-left: 42em;
 }
 
 div.forms ul li{
     display: inline-flexbox;
+    color: rgb(0, 0, 61);
 }
 
 div#r-socials{
@@ -67,11 +70,11 @@ div#r-socials ul li a:hover{
  }
 
 div#forms-b ul li{
-    background-color: #5bff58;
+    background-color:  #5bff58;
     font-size: 1.7em;
     padding: 5px;
     text-align: left;
 }
 div#forms-b ul {
-    background-color: #5bff58;
+    background-color:  #5bff58;
 }
