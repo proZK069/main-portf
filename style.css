@@ -16,6 +16,23 @@ div#all{
     text-align: center;
 }
 
+div#conteudo{
+    width: 500px; height: 300px;
+    background-color: #5bff58;
+    margin-left: 42em;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 1.6em;
+}
+div#conteudo p{
+    background-color: #5bff58;
+    color: rgb(0, 0, 61);
+    font-size: 1.9em;
+    font-weight: bolder;
+    text-align: start;
+    padding-left: 10px;
+}
 p{
     font-size: 2em;
     /* font-family: Mukta; */
